@@ -1,0 +1,92 @@
+ .options-div {
+        }
+        .prj-header {
+            color:#008B8B;
+        }
+        .box {
+            height:33.3%;
+            border:1px solid #008B8B;
+            background-color:#fff;
+        }
+        .box p {
+            font-size: 448%;
+            color: #008B8B;
+            text-align: center;
+        }
+        .box.secondmark p {
+            color: forestgreen;
+        }
+        .show {
+            display: block !important;
+        }
+        .hide {
+            display: none !important;
+        }
+        .player-opt p,.marker-opt p{
+            font-weight:bold;
+            text-align: left;
+        }
+        .marker-opt button,.player-opt button,.marker2-opt button {
+            background-color: #008B8B;
+            color:#fff;
+            border-color:#fff;
+        }
+        .player-opt button:hover,.player-opt button:active,.player-opt button:visited,.player-opt button:focus,
+        .marker-opt button:hover,.marker-opt button:active,.marker-opt button:visited,.marker-opt button:focus,
+        .marker2-opt button:hover,.marker2-opt button:active,.marker2-opt button:visited,.marker2-opt button:focus{
+            border-color:#008B8B;
+            background-color: #fff;
+            color:#008B8B;
+        }
+        .carousel-div {
+            height:300px;
+            position:relative;
+            border:1px solid #008B8B;
+            overflow-x: hidden;
+        }
+        .borderdiv {
+        	padding-left:0px;
+        	padding-right:0px;
+        }
+        @keyframes {
+            from {left:100%;}
+            to {left:0%}
+        }
+        .carousel-item {
+            height:100%;
+            position: absolute;
+            top:0;
+            left:0;
+            background-color:#008B8B;
+            color:#fff;
+        }
+        .navigate-back {
+            position: absolute;
+            left:80%;
+            top:80%;
+        }
+        .status-div p{
+            font-size:150%;
+            color:#000;
+        }
+        #turnplayer,#gamestatus {
+            color:#ffa500;
+        }
+        .gamestatus_outer {
+        	display: none;
+        }
+        .cover-div {
+        	position: absolute;
+        	top:0;
+        	left:0;
+        	height:100%;
+        	width:100%;
+        	background-color: rgba(100,100,100,0.2);
+        	z-index:9;
+        }
+        .background-gray {
+        	background-color: lightgray;
+        }
+        .marker-opt button:not(.navigate-back) {
+        	width:59%;
+        }
